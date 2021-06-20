@@ -2,3 +2,4 @@ Typing is an important skill for anyone using a computer. The more comfortable y
 
 
 Try it out here at the following link:
+https://kaziragib18.github.io/Typing-Speed-Test/
