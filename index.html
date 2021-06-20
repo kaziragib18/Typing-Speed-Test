@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Typing Speed Test</title>
+</head>
+
+<body>
+    <header class="page-one"> 
+        <h>Test Your Typing Speed</h>
+    </header>
+    <article class="intro-text">
+        Typing is an important skill for anyone using a computer. The more comfortable you are typing, the more you can focus on what you are working on.
+        Practice is key to improving your typing skills. The more you use this typing test you can track your timmings, the faster you will type. 
+        It includes statistics about your speed, where you slow down, and the type of errors you make. All those details are crucial to improve your speed.
+        So in this typing speed test all you have to do is to follow the given sentense exactly to the letter and at the end of it see you achived time. Good Luck!  
+    </article>
+    <main class="main-page">
+        <section class="type-test">
+            <div class="h-origintext">
+                <textarea id="origin-text"  rows="2"></textarea>
+                <p id="origin-text-label">Victory belongs to the most persevering.</p>
+                <small style="font-size: 12px; display: none;" id="small-text" >Type your test text then press Enter </small>
+
+            </div>
+            <div class="starting-place">
+                <textarea placeholder="Start your typing from here ..." id="entered-text" rows="6"></textarea>
+            </div>
+            <div class="tester-place">
+                <p id="clock">00:00:00</p>
+                <button id="reset-btn">Start Over</button>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

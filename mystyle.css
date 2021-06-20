@@ -1,0 +1,110 @@
+body {
+    background-color: #e0a16d;
+    margin: 0;
+    font-family: "Lucida Console", Courier, monospace !important;
+    font-size: large !important;
+    text-align: center;
+  }
+  .page-one {
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;  
+    vertical-align: middle;
+    background-color: rgb(161, 6, 6);
+    color: rgb(251, 254, 255);
+    padding: 25px 0 0 0px;
+    
+  }
+  
+  
+  .intro-text { 
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      height: auto;   
+      background-color:rgba(138, 31, 17, 0.404);
+      color: aliceblue;  
+      padding: 35px 0; 
+      text-align: center; 
+      display: table-cell; 
+  }
+  
+  .main-page {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .type-test {
+      width: 90%;
+      margin: auto;
+      padding: 15px;
+  }
+  
+  .h-origintext {
+      font-family: 'Times New Roman', Times, serif,  Arial, sans-serif;
+      font-size: 30px;
+      width: 100%;
+      padding: 20px;
+      background:rgba(39, 18, 18, 0.26);
+      border-radius: 5px;
+      text-align: center;
+  }
+  .starting-place {
+      padding :20px 0px 0  0;
+      width: 100%;
+  }
+  #entered-text{
+      padding: 10px;
+      width: 100%;
+      border: 11px solid rgb(39, 29, 29);
+      border-radius: 5px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px; 
+      opacity:initial;
+      /* transition: all .7s; */
+  }
+  
+  #origin-text{
+      display: none;
+      padding: 10px;
+      width: 90%; 
+      border-radius: 5px;
+      font-family: "Lucida Console", Courier, monospace;
+      font-size: 20px; 
+      /* transition: all .7s; */
+  }
+   
+  #origin-text-label{
+  cursor: pointer;
+  }
+  #origin-text-label:hover{
+      color: brown;
+      }
+  
+  .tester-place{ 
+      padding: 25px;
+      font-size: 25px;  
+      
+  }
+  #clock{
+      display: inline; 
+      
+  }
+  #reset-btn{ 
+      display: inline;
+      font-size: 15px;
+      font: fantasy;
+      font-weight: bold;
+      padding: 7px 20px;
+      color: rgb(255, 255, 255);
+      border-radius: 5px; 
+      background-color: rgb(161, 6, 6);
+      cursor: pointer;
+  }
+  #reset-btn:hover{  
+      background-color: rgba(0, 0, 0, 0.123);
+  }   
+  
+  .successed{
+      border-color: rgb(29, 148, 45) !important;
+  }
