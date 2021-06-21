@@ -5,6 +5,8 @@ body {
     font-size: large !important;
     text-align: center;
   }
+   /* ========================== */
+
   .page-one {
     font-family: fantasy;
     font-size: 20px;
@@ -61,6 +63,7 @@ body {
       font-family: 'Times New Roman', Times, serif;
       font-size: 20px; 
       opacity:initial;
+      
       /* transition: all .7s; */
   }
   
@@ -101,6 +104,9 @@ body {
       background-color: rgb(161, 6, 6);
       cursor: pointer;
   }
+
+   /* =========== typing box border css  =============== */
+
   #reset-btn:hover{  
       background-color: rgba(0, 0, 0, 0.123);
   }   
